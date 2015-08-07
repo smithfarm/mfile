@@ -1,0 +1,10 @@
+NAME
+    App::MFILE - MFILE shared modules
+
+VERSION
+    Version 0.172
+
+DESCRIPTION
+    This distro consists of general, reusable modules. Currently the modules
+    are used mainly by App::MFILE::WWW and other similar frontends.
+
