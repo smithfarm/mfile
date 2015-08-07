@@ -53,15 +53,6 @@ App::MFILE::CLI::HTTP - general REST request forwarder for MFILE-based clients
 
 
 
-=head1 VERSION
-
-Version 0.172
-
-=cut
-
-our $VERSION = '0.172';
-
-
 
 =head1 SYNOPSIS
 
