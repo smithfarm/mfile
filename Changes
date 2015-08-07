@@ -91,3 +91,7 @@ Revision history for App::Dochazka
 0.172  2014-09-11 09:36 CEST
 - Build.PL: update dependencies
 
+0.173  2015-08-07 13:05 CEST
+- migrate to GitHub
+- Set version in top-level module only
+
