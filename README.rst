@@ -1,6 +1,12 @@
 App::MFILE
 ==========
 
+.. image:: https://travis-ci.org/smithfarm/mfile.svg?branch=master
+    :target: https://travis-ci.org/smithfarm/mfile
+
+.. image:: https://badge.fury.io/pl/App-MFILE.svg
+    :target: https://badge.fury.io/pl/App-MFILE
+
 MFILE shared modules
 
 Version
