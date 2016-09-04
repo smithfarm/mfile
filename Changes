@@ -102,3 +102,7 @@ Revision history for App::Dochazka
 - MANIFEST.SKIP: add several missing files
 - Merge README files and convert them to reStructuredText
 
+0.176 2016-09-04 11:19 CEST
+- HTTP.pm: fix module name in POD
+- README.rst: slightly saner description
+
