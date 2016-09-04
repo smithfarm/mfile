@@ -19,7 +19,7 @@ name: App-MFILE
 provides:
   App::MFILE:
     file: lib/App/MFILE.pm
-    version: '0.177'
+    version: '0.178'
   App::MFILE::HTTP:
     file: lib/App/MFILE/HTTP.pm
 requires:
@@ -33,5 +33,5 @@ resources:
   homepage: https://sourceforge.net/projects/mfile/
   license: http://opensource.org/licenses/bsd-license.php
   repository: https://sourceforge.net/p/mfile/code/
-version: '0.177'
+version: '0.178'
 x_serialization_backend: 'CPAN::Meta::YAML version 0.012'
