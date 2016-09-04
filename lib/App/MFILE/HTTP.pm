@@ -49,7 +49,7 @@ use Params::Validate qw( :all );
 
 =head1 NAME
 
-App::MFILE::CLI::HTTP - general REST request forwarder for MFILE-based clients
+App::MFILE::HTTP - general REST request forwarder for MFILE-based clients
 
 
 
