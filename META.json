@@ -4,7 +4,7 @@
       "Smithfarm <presnypreklad@gmail.com>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.4212",
+   "generated_by" : "Module::Build version 0.4205",
    "license" : [
       "bsd"
    ],
@@ -41,7 +41,7 @@
    "provides" : {
       "App::MFILE" : {
          "file" : "lib/App/MFILE.pm",
-         "version" : "0.173"
+         "version" : "0.174"
       },
       "App::MFILE::HTTP" : {
          "file" : "lib/App/MFILE/HTTP.pm"
@@ -51,11 +51,12 @@
    "resources" : {
       "homepage" : "https://sourceforge.net/projects/mfile/",
       "license" : [
-         "http://opensource.org/licenses/BSD-3-Clause"
+         "http://opensource.org/licenses/bsd-license.php"
       ],
       "repository" : {
          "url" : "https://sourceforge.net/p/mfile/code/"
       }
    },
-   "version" : "0.173"
+   "version" : "0.174",
+   "x_serialization_backend" : "JSON::PP version 2.27203"
 }

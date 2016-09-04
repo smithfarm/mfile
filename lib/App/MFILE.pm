@@ -52,11 +52,11 @@ App::MFILE - MFILE shared modules
 
 =head1 VERSION
 
-Version 0.173
+Version 0.174
 
 =cut
 
-our $VERSION = '0.173';
+our $VERSION = '0.174';
 
 
 
