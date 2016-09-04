@@ -106,3 +106,9 @@ Revision history for App::MFILE
 - HTTP.pm: fix module name in POD
 - README.rst: slightly saner description
 
+0.177 2016-09-04 21:24 CEST
+- tests: drop t/boilerplate.t
+- Add .travis.yml file
+- Changes: fix heading
+- README.rst: add Travis CI badges
+
