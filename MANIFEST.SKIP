@@ -1,5 +1,4 @@
-
-#!start included /usr/lib/perl5/5.18.1/ExtUtils/MANIFEST.SKIP
+#!start included /usr/share/perl/5.14/ExtUtils/MANIFEST.SKIP
 # Avoid version control files.
 \bRCS\b
 \bCVS\b
@@ -42,6 +41,7 @@
 \.tmp$
 \.#
 \.rej$
+\.swp$
 
 # Avoid OS-specific files/dirs
 # Mac OSX metadata
@@ -55,7 +55,7 @@
 
 # Avoid MYMETA files
 ^MYMETA\.
-#!end included /usr/lib/perl5/5.18.1/ExtUtils/MANIFEST.SKIP
+#!end included /usr/share/perl/5.14/ExtUtils/MANIFEST.SKIP
 
 # Avoid configuration metadata file
 ^MYMETA\.
@@ -70,6 +70,18 @@
 ^MANIFEST\.SKIP
 
 # Avoid archives of this distribution
-\bApp-MFILE-[\d\.\_]+
+\bApp-Dochazka-REST-[\d\.\_]+
+\bticket$
+
+# Avoid release script helper files
 \bCPAN_NAME$
-release.sh$
+\bOBS_PROJECT$
+\bVERSION_MODULE$
+
+# Avoid docker stuff
+\bdocker-test.sh$
+\bdocker/
+
+# Avoid "tickets"
+\btickets$
+
