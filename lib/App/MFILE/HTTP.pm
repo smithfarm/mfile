@@ -164,7 +164,7 @@ sub rest_req {
     my $body = $response->decoded_content;
     $log->debug( "rest_req: decoded content" . Dumper $body );
     $response->content('');
-    my $body_json = JSON->new->decode( $body ) if $response->is_success;
+    my $body_json = JSON->new->decode( $body ); #if $response->is_success;
 
     return { 
         hr => $response,
