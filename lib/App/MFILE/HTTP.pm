@@ -162,19 +162,19 @@ sub rest_req {
     my $response = $ua->request( $r );
 
     # process response
-    my $body = $response->decoded_content;
-    $log->debug( "rest_req: decoded content" . Dumper $body );
+    my $body_json = $response->decoded_content;
+    $log->debug( "rest_req: decoded JSON body " . Dumper $body_json );
     $response->content('');
-    my $body_json;
+    my $body;
     try {
-        $body_json = JSON->new->decode( $body );
+        $body = JSON->new->decode( $body_json );
     } catch {
-        $body_json = "{ \"code\": \"$body\", \"text\": \"$body\" }";
+        $body = { 'code' => $body, 'text' => $body };
     };
 
     return { 
         hr => $response,
-        body => $body_json
+        body => $body
     };
 }
 
