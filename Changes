@@ -116,3 +116,7 @@ Revision history for App::MFILE
 - MANIFEST.SKIP: skip .travis.yml
 - Drop ignore.txt
 
+0.179 2016-09-26 09:53 CEST
+- HTTP.pm: return body even on error in rest_req()
+- HTTP.pm: convert non-JSON bodies to JSON
+
