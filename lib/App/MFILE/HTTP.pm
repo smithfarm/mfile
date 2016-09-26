@@ -46,6 +46,7 @@ use HTTP::Request::Common;
 use JSON;
 use LWP::UserAgent;
 use Params::Validate qw( :all );
+use Try::Tiny;
 
 =head1 NAME
 
@@ -164,7 +165,12 @@ sub rest_req {
     my $body = $response->decoded_content;
     $log->debug( "rest_req: decoded content" . Dumper $body );
     $response->content('');
-    my $body_json = JSON->new->decode( $body ); #if $response->is_success;
+    my $body_json;
+    try {
+        $body_json = JSON->new->decode( $body );
+    } catch {
+        $body_json = "{ \"code\": \"$body\", \"text\": \"$body\" }";
+    };
 
     return { 
         hr => $response,
