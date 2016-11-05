@@ -131,7 +131,7 @@ sub rest_req {
     die "Bad user agent object" unless ref( $ua ) eq 'LWP::UserAgent';
     my %ARGS = validate( @_, {
         server =>   { type => SCALAR,  default => 'http://localhost:5000' },
-        method =>   { type => SCALAR,  default => 'GET', regex => qr/^(GET|POST|PUT)$/ },
+        method =>   { type => SCALAR,  default => 'GET', regex => qr/^(GET|POST|PUT|DELETE)$/ },
         nick =>     { type => SCALAR,  optional => 1 },
         password => { type => SCALAR,  default => '' },
         path =>     { type => SCALAR,  default => '/' },
