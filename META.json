@@ -41,7 +41,7 @@
    "provides" : {
       "App::MFILE" : {
          "file" : "lib/App/MFILE.pm",
-         "version" : "0.180"
+         "version" : "0.181"
       },
       "App::MFILE::HTTP" : {
          "file" : "lib/App/MFILE/HTTP.pm"
@@ -57,6 +57,6 @@
          "url" : "https://sourceforge.net/p/mfile/code/"
       }
    },
-   "version" : "0.180",
+   "version" : "0.181",
    "x_serialization_backend" : "JSON::PP version 2.27203"
 }

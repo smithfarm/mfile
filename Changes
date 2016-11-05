@@ -123,3 +123,7 @@ Revision history for App::MFILE
 0.180 2016-09-27 17:01 CEST
 - HTTP.pm: remove $body / $body_json confusion
 
+0.181 2016-11-05 22:32 CET
+- build/ops: change OBS project back to Application:Dochazka
+- HTTP.pm: Allow rest_req() to send DELETE requests
+
