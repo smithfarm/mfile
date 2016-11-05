@@ -42,7 +42,7 @@ use App::CELL qw( $CELL $log $site $meta );
 use Data::Dumper;
 use Encode qw( encode_utf8 );
 use Exporter qw( import );
-use HTTP::Request::Common;
+use HTTP::Request::Common qw( GET PUT POST DELETE );
 use JSON;
 use LWP::UserAgent;
 use Params::Validate qw( :all );
