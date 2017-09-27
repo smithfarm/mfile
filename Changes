@@ -129,5 +129,5 @@ Revision history for App::MFILE
 
 0.182 2017-09-27 14:43 CEST
 - Build.PL: require recent App::CELL
-- HTTP.pm: migrade is_authorized code from mfile-www and dochazka-www
+- HTTP.pm: migrate is_authorized code from mfile-www and dochazka-www
 
