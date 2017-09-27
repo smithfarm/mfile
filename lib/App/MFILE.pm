@@ -42,11 +42,9 @@ use warnings;
 
 
 
-
 =head1 NAME
 
 App::MFILE - MFILE shared modules
-
 
 
 
@@ -60,12 +58,19 @@ our $VERSION = '0.182';
 
 
 
-
 =head1 DESCRIPTION
+
+DEPRECATED NOT TRUE
 
 This distro consists of general, reusable modules. Currently, there is only
 one module, L<App::MFILE::HTTP>, which is used by L<App::MFILE::WWW>,
 L<App::Dochazka::WWW>, and L<App::Dochazka::CLI>.
+
+DEPRECATED NOT TRUE
+
+Actually, this module is no longer used at all. The code has been moved into
+C<App::MFILE::WWW>.
+
 
 =cut
 
